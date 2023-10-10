@@ -20,7 +20,7 @@ app.use(express.json());
 
 // Routes
 app.get("/", (req, res) => {
-  res.send({ msg: "Hello!" });
+  res.send({ msg: "Hello Willis!" });
 });
 
 // Connection
